@@ -12,6 +12,7 @@ function deleteLast() {
   inputField.value = inputField.value.slice(0, -1); // 0th index to last index length -1
 }
 
-function evaluate() {
+function calculateResult() {
     inputField.value = eval(inputField.value); // eval() is used to evaluate string as a mathematical expression it's an In-Built function in JS
+
 }
